@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Bhaijaan+2:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color:#F3D08C ;
+}
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #DE817B;
+}
+
+
+.submenu a{
+    text-decoration: none;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    color: #ffff;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    transition: 0.5s;
+
+}
+
+#imagem{
+    width: 100%;
+    height: 390px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+img{
+    width: 1550px;
+    height: 340px;
+    margin: auto;
+    
+}
+
+#container-card{
+    width: 100%;
+    min-height: 415px;
+    height: auto;
+    overflow: hidden;
+    background-color: #DE817B;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+    
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 427px;
+    margin-left: 340px;
+
+    
+    
+}
+
+.card2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 427px;
+    margin-left: 150px;
+    
+}
+
+.card3{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 427px;
+    margin-left: 150px;
+    
+}
+
+
+
+.card_items{
+    width: 100%;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+.card_imagem{
+    width: 260px;
+    height: 320px;   
+
+}
+
+.descricao{
+    font-family: Abel, sans-serif;
+    font-size: 1.2rem;
+}
+
+.preco{
+    font-family: Abel, sans-serif;
+    font-size: 1.9rem;
+  
+   
+
+}
+
+.parcelamento{
+    font-family: Abel, sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+
+
