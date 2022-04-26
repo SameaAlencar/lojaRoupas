@@ -10,13 +10,35 @@
 header{
     width: 100%;
     height: 80px;
-    background-color:#F3D08C ;
+    background-color:#EBD3A5 ;
+}
+
+
+#contatos{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #DAE8D2;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    font-size: 100px;
+    color: #ffff;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+    
+}
+
+
+#informacoes{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
 }
 
 .menu{
     width: 100%;
     height: 40px;
-    background-color: #DE817B;
+    background-color: #FDC8C2;
 }
 
 
@@ -44,17 +66,70 @@ img{
     
 }
 
+#imagem2{
+    width: 1300px;
+    height: 340px;
+    margin: auto;
+    margin-left: 150px;
+
+}
+#imagem3{
+    width: 1300px;
+    height: 340px;
+    margin: auto;
+    margin-left: 150px;
+
+}
+
+
 #container-card{
     width: 100%;
     min-height: 415px;
     height: auto;
     overflow: hidden;
-    background-color: #DE817B;
+    background-color: #FFE4E1;
     display: flex;
     flex-wrap: wrap;
    
+}
+#container-card2{
+    width: 100%;
+    min-height: 415px;
+    height: auto;
+    overflow: hidden;
+    background-color: #E4DCEB;
+    display: flex;
+    flex-wrap: wrap;
    
-    
+}
+#container-card3{
+    width: 100%;
+    min-height: 415px;
+    height: auto;
+    overflow: hidden;
+    background-color: #CDDDEB;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#container-card4{
+    width: 500px;
+    height: 600px;
+    background-color: #DAE8D2;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    color: #9FB692;
+
+   
+}
+input{
+    width: 300px;
+    height: 30px;
 }
 
 .card{
