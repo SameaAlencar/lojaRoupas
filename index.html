@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/main.js" defer></script>
     <title>Loja de roupas</title>
 </head>
 <body>
@@ -22,8 +23,49 @@
         </ul>
 
     </nav>
-    <section id="imagem">
-        <img src="img/img2.png" alt="">
+    <section class="container-slides">
+        <div class="container">
+            <div class="slider">
+                <div class="slides">
+                    <!--Botoes radio-->
+                    <input type="radio" name="radiobtn" id="radio1">
+                    <input type="radio" name="radiobtn" id="radio2">
+                    <input type="radio" name="radiobtn" id="radio3">
+                    <input type="radio" name="radiobtn" id="radio4">
+
+                    <!----Slide de imagens-->
+                    <div class="slide first">
+                        <img src="./img/slider/img2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slider/peb.PNG" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slider/Frame 1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slider/STYLE.PNG" alt="">
+                    </div>
+
+                    <div class="navegacao">
+                        <div class="btn1"></div>
+                        <div class="btn2"></div>
+                        <div class="btn3"></div>
+                        <div class="btn4"></div>                   
+                    </div>
+
+                </div>
+                <div class="navegacao-manual">
+                    <label for="radio1" class="btn-manual"></label>
+                    <label for="radio2" class="btn-manual"></label>
+                    <label for="radio3" class="btn-manual"></label>
+                    <label for="radio4" class="btn-manual"></label>
+                </div>
+
+                
+            </div>
+        </div>
+        
     </section>
     <section id="container-card">
         <ul class="card">
@@ -83,7 +125,7 @@
 
 <div id="meio">
     <section id="imagem">
-        <img src="img/Frame 1.png" id="imagem2" alt="">
+        <img src="img/slider/Frame 1.png" id="imagem2" alt="">
     </section>
     <section id="container-card2">
         <ul class="card">
@@ -144,7 +186,7 @@
 </div>
 <div id="meio2">
     <section id="imagem">
-        <img src="img/Frame 1 (2).png" id="imagem3" alt="">
+        <img src="img/slider/Frame 1 (2).png" id="imagem3" alt="">
     </section>
     <section id="container-card3">
         <ul class="card">
