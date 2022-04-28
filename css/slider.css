@@ -53,7 +53,7 @@ body{
     margin-top: -40px;
     display: flex;
     justify-content: center;
-    padding-left: 400px;
+    padding-left: 450px;
 }
 
 .btn-manual{
@@ -107,7 +107,7 @@ body{
     margin-top: 360px;
     display: flex;
     justify-content: center;
-    padding-left: 400px;
+    padding-left: 450px;
 }
 
 .navegacao div:not(:last-child){
